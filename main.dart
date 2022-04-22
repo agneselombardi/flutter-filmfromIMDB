@@ -23,9 +23,6 @@ class _MyAppState extends State<MyApp> {
 
   String url = "https://image.tmdb.org/t/p/original";
 
-  //ListTileStyle style =
-  //ListTile.styleFrom();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -70,13 +67,9 @@ class _MyAppState extends State<MyApp> {
                                         children: [
                                           Text(movie.getTitle(),
                                           textAlign: TextAlign.center,),
-                                          //style: const TextStyle(color: Colors.white,
-                                          //fontSize: 16,
-                                          //fontStyle: FontStyle.italic),),
+                                        
                                           Text(movie.getVote().toString(),),
-                                              //style: const TextStyle(color: Colors.white,
-                                                  //fontSize: 15,
-                                                  //fontStyle: FontStyle.italic)),
+                                       
                                         ],
                                     ),
                                      ),
